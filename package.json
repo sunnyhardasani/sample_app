@@ -1,0 +1,24 @@
+{
+  "name" : "sample_app",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "caleydo_web": "*",
+    "caleydo_server": "*"
+  },
+  "caleydo": {
+    "plugins": {
+      "web": {
+        "type": "app",
+        "name": "Sample"
+      }
+    },
+    "dependencies":{
+      "web":{
+        "d3": "~3.5.5"
+      }
+    }
+  },
+  "publishConfig": {
+    "registry": "http://dev.caleydo.org/nexus/content/repositories/caleydo-web/"
+  }
+}
