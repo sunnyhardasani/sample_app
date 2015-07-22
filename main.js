@@ -3,7 +3,7 @@
  */
 
 //define the main module having 3 dependencies: d3 (external library), caleydo main, and caleydo data
-define(['d3', '../../caleydo_web/main', '../../caleydo_web/data'], function (d3, C, data) {
+define(['d3', '../caleydo_web/main', '../caleydo_web/data'], function (d3, C, data) {
   'use strict';
 
   //list a available dataset as a table
