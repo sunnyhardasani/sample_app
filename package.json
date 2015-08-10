@@ -2,8 +2,6 @@
   "name" : "sample_app",
   "version": "0.0.1",
   "dependencies": {
-    "caleydo_core": "*",
-    "caleydo_server": "*"
   },
   "peerDependencies": {
     "caleydo_core": "*",
