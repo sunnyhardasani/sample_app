@@ -6,7 +6,8 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "caleydo_core": "*"
+    "caleydo_core": "*",
+    "wrapper_bootstrap_fontawesome": "*"
   },
   "caleydo": {
     "plugins": {

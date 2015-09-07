@@ -2,9 +2,13 @@
  *
  */
 
-//define the main module having 3 dependencies: d3 (external library), caleydo main, and caleydo data
-define(['d3', '../caleydo_core/main', '../caleydo_core/data'], function (d3, C, data) {
+//define the main module having 4 dependencies: d3 (external library), caleydo main, caleydo data, and a header template for a common styling
+define(['d3', '../caleydo_core/main', '../caleydo_core/data', '../wrapper_bootstrap_fontawesome/header'], function (d3, C, data, header) {
   'use strict';
+
+  var appHeader = header.create(document.body, {
+    app: 'Sample App'
+  });
 
   //list a available dataset as a table
   var base = d3.select('#datalist tbody');
