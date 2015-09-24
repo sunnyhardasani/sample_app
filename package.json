@@ -1,7 +1,7 @@
 {
-  "name" : "sample_app",
+  "name": "sample_app",
   "version": "0.0.1",
-  "license" : "SEE LICENSE IN LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "Caleydo/sample_app",
   "dependencies": {
   },
@@ -16,11 +16,21 @@
         "name": "Sample"
       }
     },
-    "dependencies":{
-      "web":{
+    "dependencies": {
+      "web": {
         "d3": "~3.5.5"
       }
-    }
+    },
+    "products": [
+      {
+        "type": "python",
+        "package": "tar.gz",
+        "app": "sample_app",
+        "plugins": [
+          "sample_app"
+        ]
+      }
+    ]
   },
   "publishConfig": {
     "registry": "http://registry.caleydo.org/"
